@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Conversor de Medidas</title>
+		<meta charset="utf-8" />
+		<meta name="author" content="Talison Yago" />
+		<meta name="keywords" content="conversor de medidas, conversor de unidades, conversor, converter metro para milimetro" />
+		<meta name="description" content="Conversor de medidas rápido e facilitado. Acesse nosso conversor e converta qualquer tipo de unidade de medida." />
+		<link rel="stylesheet" type="text/css" href="./css/style.css" >
+	</head>
+	<body>
+
+		<header>
+			<a href="#" class="abrir" onclick="abrirmenu()">&#9776; Menu</a>
+		</header>
+
+		<nav id="menu">
+			<a href="#" onclick="fecharmenu()">&times;Fechar</a>
+			<a href="index.html">Comprimento</a>
+			<a href="#">Temperatura</a>
+			<a href="volume.html">Volume</a>
+		</nav>
+		
+		<main id="conteudo">
+			<div class="card" >
+				<h1 class="converter-title">Temperatura</h1>
+
+				<input type="text" placeholder="" id="inputtemp" >
+				<span>=</span>
+				<input type="text" placeholder="Resultado" id="resulttemp">
+			
+
+				<select id="inputtempType">
+					<option value="celsius">Graus Celsius</option>
+					<option value="fahrenheit">Graus Fahrenheit</option>
+					<option value="kelvin">Kelvin</option>
+				</select>
+
+				<select id="resulttempType">
+					<option value="celsius">Graus Celsius</option>
+					<option value="fahrenheit">Graus Fahrenheit</option>
+					<option value="kelvin">Kelvin</option>
+				</select>
+			</div>
+		</main>
+		<script src="temperatura.js"></script>
+
+	</body>
+</html>

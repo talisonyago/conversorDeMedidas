@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Conversor de Medidas</title>
+		<meta charset="utf-8" />
+		<meta name="author" content="Talison Yago" />
+		<meta name="keywords" content="conversor de medidas, conversor de unidades, conversor, converter metro para milimetro" />
+		<meta name="description" content="Conversor de medidas rápido e facilitado. Acesse nosso conversor e converta qualquer tipo de unidade de medida." />
+		<link rel="stylesheet" type="text/css" href="./css/style.css" >
+	</head>
+	<body>
+
+		<header>
+			<a href="#" class="abrir" onclick="abrirmenu()">&#9776; Menu</a>
+		</header>
+
+		<nav id="menu">
+			<a href="#" onclick="fecharmenu()">&times;Fechar</a>
+			<a href="index.html">Comprimento</a>
+			<a href="temperatura.html">Temperatura</a>
+			<a href="#">Volume</a>
+		</nav>
+		
+		<main id="conteudo">
+			<div class="card" >
+				<h1 class="converter-title" id="texto-card">Volume</h1>
+
+				<input type="text" placeholder="" id="inputvol" >
+				<span>=</span>
+				<input type="text" placeholder="Resultado" id="resultvol">
+			
+
+				<select id="inputvolType">
+					<option value="quilometro_cubico">Quilômetro(s)³</option>
+					<option value="hectometro_cubico">Hectômetro(s)³</option>
+					<option value="decametro_cubico">Decâmetro(s)³</option>
+					<option value="metro_cubico">Metro(s)³</option>
+					<option value="decimetro_cubico">Decímetro(s)³</option>
+					<option value="centimetro_cubico">Centímetros(s)³</option>
+					<option value="milimetro_cubico">Milímetro(s)³</option>
+				</select>
+
+				<select id=resultvolType>
+					<option value="quilometro_cubico">Quilômetro(s)³</option>
+					<option value="hectometro_cubico">Hectômetro(s)³</option>
+					<option value="decametro_cubico">Decâmetro(s)³</option>
+					<option value="metro_cubico">Metro(s)³</option>
+					<option value="decimetro_cubico">Decímetro(s)³</option>
+					<option value="centimetro_cubico">Centímetros(s)³</option>
+					<option value="milimetro_cubico">Milímetro(s)³</option>
+				</select>
+			</div>
+		</main>
+		<script src="volume.js"></script>
+
+	</body>
+</html>

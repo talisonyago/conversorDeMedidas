@@ -1,0 +1,71 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serife;
+}
+a{
+	text-decoration: none;
+	padding: 5px;
+}
+header{
+	background-color: rgb(21,4,98);
+}
+.abrir{
+	color: white;
+	font-size: 25px;
+}
+nav{
+	height: 100%;
+	width: 0px;
+	background-color: rgb(21,4,98);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	overflow: hidden;
+	transition: width 0.3s;
+}
+nav a{
+	color: white;
+	font-size: 25px;
+	display: block;
+	padding: 12px 10px 12px 32px;
+}
+nav a:hover{
+	color: rgb(21,4,98);
+	background-color: white;
+}
+main{
+	transition: 0.5s;
+}
+.card{
+	width: 400px;
+	height: 200px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	border-radius: 8px;
+	transform: translate(-50%, -50%);
+	box-shadow: 0px 0px 2px 1px #cacaca;
+}
+.converter-title{
+	text-align: center;
+	margin: 13px 0px;
+	padding-bottom: 20px;
+}
+input{
+	height: 25px;
+	text-align: center;
+}
+#inputcomp, #inputtemp, #inputvol{
+	margin-left: 15px;
+	border-radius: 4px;
+}
+#inputcompType,#resultcompType, #inputtempType,#resulttempType, #inputvolType,#resultvolType{
+	width: 166.66px;
+	margin-left: 15px;
+	border-radius: 4px;
+}
+#resultcompType, #resulttempType, #resultvolType{
+	margin-left: 24px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Conversor de Medidas</title>
+		<meta charset="utf-8" />
+		<meta name="author" content="Talison Yago" />
+		<meta name="keywords" content="conversor de medidas, conversor de unidades, conversor, converter metro para milimetro" />
+		<meta name="description" content="Conversor de medidas rápido e facilitado. Acesse nosso conversor e converta qualquer tipo de unidade de medida." />
+		<link rel="stylesheet"  type="text/css" href="./css/style.css" />
+	</head>
+	<body>
+
+		<header>
+			<a href="#" class="abrir" onclick="abrirmenu()">&#9776; Menu</a>
+		</header>
+
+		<nav id="menu">
+			<a href="#" onclick="fecharmenu()">&times;Fechar</a>
+			<a href="#">Comprimento</a>
+			<a href="temperatura.html">Temperatura</a>
+			<a href="volume.html">Volume</a>
+		</nav>
+		
+		<main id="conteudo">
+			<div class="card" >
+				<h1 class="converter-title" id="texto-card">Comprimento</h1>
+
+				<input type="text" placeholder="" id="inputcomp" >
+				<span>=</span>
+				<input type="text" placeholder="Resultado" id="resultcomp">
+			
+
+				<select id="inputcompType">
+					<option value="quilometro">Quilômetro(s)</option>
+					<option value="hectometro">Hectômetro(s)</option>
+					<option value="decametro">Decâmetro(s)</option>
+					<option value="metro">Metro(s)</option>
+					<option value="decimetro">Decímetro(s)</option>
+					<option value="centimetro">Centímetro(s)</option>
+					<option value="milimetro">Milímetro(s)</option>
+				</select>
+
+				<select id=resultcompType>
+					<option value="quilometro">Quilômetro(s)</option>
+					<option value="hectometro">Hectômetro(s)</option>
+					<option value="decametro">Decâmetro(s)</option>
+					<option value="metro">Metro(s)</option>
+					<option value="decimetro">Decímetro(s)</option>
+					<option value="centimetro">Centímetro(s)</option>
+					<option value="milimetro">Milímetro(s)</option>
+				</select>
+			</div>
+		</main>
+		<script src="main.js"></script>
+
+	</body>
+</html>
